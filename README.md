@@ -1,0 +1,1 @@
+Very simple static website structure made with php.
