@@ -1,0 +1,1 @@
+<h1 class="site-name">Site Name</h1>
