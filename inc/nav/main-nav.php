@@ -1,1 +1,1 @@
-<?php include ('inc/nav/links'); ?>
+<?php include ('inc/nav/links.php'); ?>

@@ -1,7 +1,7 @@
 <p>3 wolf moon pour-over fanny pack literally, Portland synth roof party swag keffiyeh seitan VHS Cosby sweater.</p>
 
 <div class="footer-links">
-  <?php inlcude ('inc/nav/links.php'); ?>
+  <?php include ('inc/nav/links.php'); ?>
 </div>
 
 <div id="copyright">
