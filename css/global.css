@@ -1,1 +1,22 @@
 /* Global CSS */
+body {
+  background: #dedede;
+}
+#container {
+  width: 102px;
+  margin: 50px auto;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+#main-nav {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}

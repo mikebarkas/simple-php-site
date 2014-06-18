@@ -6,11 +6,11 @@
 </head>
 
 <body>
-<div id="container">
 
-<div id="header">
-	<?php include 'inc/structure/header.php'; ?>
-</div>
+<div id="container">
+	<div id="header">
+		<?php include 'inc/structure/header.php'; ?>
+	</div>
 
 	<div id="main-nav">
 		<?php include 'inc/nav/main-nav.php'; ?>
@@ -23,7 +23,7 @@
 	<div id="footer">
 		<?php include 'inc/structure/footer.php'; ?>
 	</div>
-
 </div>
+
 </body>
 </html>
