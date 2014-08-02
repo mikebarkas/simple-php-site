@@ -1,32 +1,48 @@
-/* Global CSS */
-body {
-  background: #dedede;
-}
-#container {
-  width: 1024px;
-  margin: 50px auto;
-  background: #ffffff;
-  border: 1px solid #999999;
-}
-#header {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
 
-}
-.logo {
-  width: 120px;
-}
+html { line-height: 1; }
 
-.logo img {
-  width: 100%;
-}
+ol, ul { list-style: none; }
 
-#main-nav {
+table { border-collapse: collapse; border-spacing: 0; }
 
-}
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
 
-#content {
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
 
-}
+a img { border: none; }
 
-#footer {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-}
+body { background: #efefef; font-family: Verdana, Tahoma, sans-serif; }
+
+h1 { font-size: 1.8em; margin-bottom: 8px; }
+
+h2 { font-size: 1.5em; margin-bottom: 8px; }
+
+h3 { font-size: 1.3em; margin-bottom: 8px; }
+
+p { margin-bottom: 5px; line-height: 1.3em; }
+
+a, a:active, a:link, a:visited { color: #000000; text-decoration: none; }
+a:hover, a:active:hover, a:link:hover, a:visited:hover { text-decoration: underline; }
+
+.clearfix:after { content: ""; display: table; clear: both; }
+
+#container { background: #fff; width: 80%; margin: 50px auto 25px; padding: 20px; border: 1px solid #999; }
+
+#header { margin-bottom: 10px; }
+
+.logo { width: 180px; float: left; margin: 0 25px 0 0; }
+.logo img { width: 100%; height: auto; }
+
+.name-slogan { padding: 30px 0 0 0; }
+
+#main-nav { min-height: 45px; background: #f5f5f5; margin-bottom: 10px; }
+#main-nav ul { padding: 15px 0 0 0; }
+#main-nav ul li { list-style: none; float: left; margin: 0 15px 0 0; }
+#main-nav ul li a { padding: 6px 12px; text-decoration: none; color: #000000; }
+#main-nav ul li a:hover { text-decoration: underline; background: #ededed; }
+
+.article-list .article { padding: 8px 0; margin: 0 0 5px 0; border-bottom: 1px solid #cccccc; }

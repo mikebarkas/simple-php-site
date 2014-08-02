@@ -11,19 +11,27 @@
 
 <div id="container">
 	<div id="header">
-		<?php include 'inc/structure/header.php'; ?>
+		<div class="inner clearfix">
+			<?php include 'inc/structure/header.php'; ?>
+		</div>
 	</div>
 
 	<div id="main-nav">
-		<?php include 'inc/nav/main-nav.php'; ?>
+		<div class="inner clearfix">
+			<?php include 'inc/nav/main-nav.php'; ?>
+		</div>
 	</div>
 
 	<div id="content">
-		<?php include 'inc/content/content-switcher.php'; ?>
+		<div class="inner clearfix">
+			<?php include 'inc/content/content-switcher.php'; ?>
+		</div>
 	</div>
 
 	<div id="footer">
-		<?php include 'inc/structure/footer.php'; ?>
+		<div class="inner clearfix">
+			<?php include 'inc/structure/footer.php'; ?>
+		</div>
 	</div>
 </div>
 
